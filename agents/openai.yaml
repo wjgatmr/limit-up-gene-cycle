@@ -1,0 +1,4 @@
+interface:
+  display_name: "行情启动周期内具有涨停基因的股票"
+  short_description: "筛选主板高频快板基因并交叉验证底部放量形态，输出可审计Excel报告"
+  default_prompt: "使用 $limit-up-gene-cycle 分析当前A股主板，找出行情启动周期内具有涨停基因且处于底部放量状态的股票，并输出可审计表格。"
